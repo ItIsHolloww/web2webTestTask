@@ -1,0 +1,11 @@
+.step-container {
+	position: relative;
+	min-width: 320px;
+	max-width: 600px;
+	height: 100%;
+
+	.step-video {
+		width: 100%;
+		height: 100vh;
+	}
+}

@@ -1,0 +1,49 @@
+.my-button {
+	position: relative;
+	font-family: 'Comfortaa', sans-serif;
+	min-width: 100px;
+	min-height: 50px;
+	padding: 15px 20px;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out, outline 0.2s ease-in-out;
+
+	color: rgb(177, 251, 197);
+	background: rgb(107, 66, 181);
+	background: -moz-linear-gradient(
+		90deg,
+		rgba(107, 66, 181, 1) 0%,
+		rgba(161, 148, 178, 1) 100%
+	);
+	background: -webkit-linear-gradient(
+		90deg,
+		rgba(107, 66, 181, 1) 0%,
+		rgba(161, 148, 178, 1) 100%
+	);
+	background: linear-gradient(
+		90deg,
+		rgba(107, 66, 181, 1) 0%,
+		rgba(161, 148, 178, 1) 100%
+	);
+
+	&:hover {
+		color: rgb(70, 195, 101);
+	}
+
+	&:focus,
+	&:focus-visible {
+		outline: 2px solid rgb(105, 5, 116);
+	}
+
+	&:active {
+		color: black;
+	}
+
+	&--absolute {
+		position: absolute;
+		bottom: 50px;
+		right: 50px;
+	}
+}
